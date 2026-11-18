@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vozes da Liberdade — Frantz Fanon</title>
+<meta name="description" content="Museu digital interativo sobre Frantz Fanon: racismo, identidade e descolonização. Projeto escolar de Filosofia.">
+<meta name="theme-color" content="#1f3a2e">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js" defer></script>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <div class="topbar-inner">
+    <a class="logo" href="#inicio">Vozes da Liberdade</a>
+    <button class="menu-toggle" id="menuToggle" type="button" aria-label="Abrir menu" aria-controls="navMenu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav aria-label="Navegação principal">
+      <ul id="navMenu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#quem-foi">Fanon</a></li>
+        <li><a href="#trajetoria">Trajetória</a></li>
+        <li><a href="#ideias">Ideias</a></li>
+        <li><a href="#obras">Obras</a></li>
+        <li><a href="#atualidade">Hoje</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#quiz">Quiz</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="progress" id="progress" aria-hidden="true"></div>
+</header>
+
+<main>
+
+<!-- 1. INÍCIO -->
+<section class="hero" id="inicio">
+  <div class="hero-text">
+    <p class="kicker">Vozes da Liberdade</p>
+    <h1>Pensar é um ato de liberdade.</h1>
+    <p class="lead">Frantz Fanon foi psiquiatra, filósofo e pensador anticolonial. Ele mostrou como o racismo e o colonialismo ferem não só os corpos, mas também a identidade das pessoas.</p>
+    <a class="btn btn-primary" href="#quem-foi">Conheça Fanon</a>
+  </div>
+  <figure class="hero-photo">
+    <img src="images/fanon-portrait.webp" width="450" height="625" alt="Retrato de Frantz Fanon">
+    <figcaption>Frantz Fanon (1925–1961)</figcaption>
+  </figure>
+</section>
+
+<!-- 2. QUEM FOI -->
+<section class="section alt" id="quem-foi">
+  <div class="container split">
+    <figure class="photo-frame">
+      <img src="images/fanon-jovem.jpg" width="379" height="527" alt="Frantz Fanon jovem" loading="lazy">
+    </figure>
+    <div>
+      <h2>Quem foi Frantz Fanon?</h2>
+      <p>Nasceu em 1925, em Fort-de-France, na Martinica, então colônia francesa no Caribe. Estudou medicina e psiquiatria em Lyon, na França.</p>
+      <p>Na Argélia, chefiou um hospital psiquiátrico e viu de perto a violência colonial. Em 1956, deixou o cargo e uniu-se à luta pela independência argelina.</p>
+      <ul class="facts">
+        <li><strong>Psiquiatra</strong> estudou o sofrimento causado pelo racismo</li>
+        <li><strong>Filósofo</strong> pensou identidade, poder e liberdade</li>
+        <li><strong>Anticolonial</strong> lutou pela independência da Argélia</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 3. TRAJETÓRIA -->
+<section class="section" id="trajetoria">
+  <div class="container">
+    <h2>Sua trajetória</h2>
+    <ol class="timeline">
+      <li><span class="year">1925</span><h3>Nasce na Martinica</h3><p>Cresce numa sociedade de hierarquias raciais.</p></li>
+      <li><span class="year">1943</span><h3>Vai à guerra</h3><p>Luta pela França, é ferido e condecorado. Vê o racismo no próprio exército.</p></li>
+      <li><span class="year">1952</span><h3>Primeiro livro</h3><p>Publica <em>Pele Negra, Máscaras Brancas</em>.</p></li>
+      <li><span class="year">1953</span><h3>Argélia</h3><p>Assume a psiquiatria do hospital de Blida-Joinville.</p></li>
+      <li><span class="year">1956</span><h3>Escolhe a luta</h3><p>Renuncia ao cargo e une-se à FLN.</p></li>
+      <li><span class="year">1961</span><h3>Último livro</h3><p>Publica <em>Os Condenados da Terra</em> e morre aos 36 anos.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- 4. IDEIAS -->
+<section class="section alt" id="ideias">
+  <div class="container">
+    <h2>Suas principais ideias</h2>
+    <p class="section-sub">Toque em um cartão para ver um exemplo.</p>
+    <div class="cards-4">
+
+      <button class="idea" type="button" aria-expanded="false">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="22" fill="none" stroke="currentColor" stroke-width="3"/><path d="M10 32h44M32 10c-9 8-9 36 0 44M32 10c9 8 9 36 0 44" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+        <h3>Colonialismo é sistema</h3>
+        <p>Não é só ocupar terras. É organizar o poder e desvalorizar a cultura dos povos dominados.</p>
+        <span class="more">Quando uma cultura é tratada como “atrasada”, a dominação parece natural.</span>
+      </button>
+
+      <button class="idea" type="button" aria-expanded="false">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="22" fill="none" stroke="currentColor" stroke-width="3"/><path d="M18 30c4-7 24-7 28 0M22 42c6 6 14 6 20 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M8 20 56 44" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+        <h3>Máscaras brancas</h3>
+        <p>O racismo faz a pessoa negra se ver pelo olhar do outro e a leva a querer “parecer branca”.</p>
+        <span class="more">Aprender que só um padrão de beleza ou de fala é “certo” é um exemplo.</span>
+      </button>
+
+      <button class="idea" type="button" aria-expanded="false">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="20" r="9" fill="none" stroke="currentColor" stroke-width="3"/><path d="M14 52c2-14 34-14 36 0" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M6 6l52 52" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+        <h3>Desumanização</h3>
+        <p>Tratar pessoas como inferiores justifica a exploração e nega seus direitos e sua dignidade.</p>
+        <span class="more">Para Fanon, libertar-se é recuperar a humanidade que foi negada.</span>
+      </button>
+
+      <button class="idea" type="button" aria-expanded="false">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M8 52V26l12-10 12 10v26M32 52V34l12-10 12 10v18M4 52h56" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></svg>
+        <h3>Descolonizar</h3>
+        <p>Libertar um país não basta. É preciso refazer a cultura, o pensamento e as relações de poder.</p>
+        <span class="more">Fanon analisou a violência no contexto da guerra da Argélia, sem fazer dela um elogio.</span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<!-- 5. OBRAS -->
+<section class="section" id="obras">
+  <div class="container">
+    <h2>Suas principais obras</h2>
+    <div class="books">
+      <article class="book">
+        <div class="cover cover-green"><span>Pele Negra,<br>Máscaras Brancas</span><small>1952</small></div>
+        <h3>Pele Negra, Máscaras Brancas</h3>
+        <p>Mostra como o racismo afeta a identidade e a forma como a pessoa negra se vê.</p>
+      </article>
+      <article class="book">
+        <div class="cover cover-img"><img src="images/os-condenados-da-terra.jpg" width="250" height="375" alt="Capa de Os Condenados da Terra" loading="lazy"></div>
+        <h3>Os Condenados da Terra</h3>
+        <p>Analisa o colonialismo, a violência e a descolonização. Tem prefácio de Jean-Paul Sartre.</p>
+      </article>
+      <article class="book">
+        <div class="cover cover-terra"><span>Sociologia de<br>uma Revolução</span><small>1959</small></div>
+        <h3>Sociologia de uma Revolução</h3>
+        <p>Conta como a guerra de independência mudou a vida cotidiana na Argélia.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- 6. ATUALIDADE -->
+<section class="section alt" id="atualidade">
+  <div class="container">
+    <h2>Fanon nos dias atuais</h2>
+    <p class="section-sub">As estruturas que ele descreveu ainda ajudam a entender o presente.</p>
+    <div class="now-grid">
+      <div class="now"><h3>Racismo</h3><p>Vai além do preconceito individual: aparece em estereótipos, oportunidades e tratamento desigual.</p></div>
+      <div class="now"><h3>Identidade</h3><p>Representatividade importa para que cada pessoa se reconheça e se valorize.</p></div>
+      <div class="now"><h3>Liberdade</h3><p>Ser livre é poder existir com dignidade, sem ter a própria cultura negada.</p></div>
+      <div class="now"><h3>Desigualdade</h3><p>A Marcha Zumbi dos Palmares (1995) e o 20 de Novembro seguem cobrando reparação e justiça.</p></div>
+    </div>
+    <p class="question">Como transformar reflexão em atitudes concretas contra o racismo?</p>
+  </div>
+</section>
+
+<!-- 7. CURIOSIDADES -->
+<section class="section" id="curiosidades">
+  <div class="container">
+    <h2>Curiosidades</h2>
+    <p class="section-sub">Toque para virar o cartão.</p>
+    <div class="cards-4 flips">
+
+      <button class="flip" type="button" aria-pressed="false">
+        <span class="flip-inner">
+          <span class="face front"><strong>Condecorado na guerra</strong></span>
+          <span class="face back">Recebeu a Croix de Guerre, mas enfrentou racismo no exército que defendia.</span>
+        </span>
+      </button>
+
+      <button class="flip" type="button" aria-pressed="false">
+        <span class="flip-inner">
+          <span class="face front"><strong>Primeiro livro aos 27</strong></span>
+          <span class="face back"><em>Pele Negra, Máscaras Brancas</em> só virou clássico depois de sua morte.</span>
+        </span>
+      </button>
+
+      <button class="flip" type="button" aria-pressed="false">
+        <span class="flip-inner">
+          <span class="face front"><strong>Escreveu doente</strong></span>
+          <span class="face back"><em>Os Condenados da Terra</em> foi escrito com leucemia. Ele morreu meses depois.</span>
+        </span>
+      </button>
+
+      <button class="flip" type="button" aria-pressed="false">
+        <span class="flip-inner">
+          <span class="face front"><strong>Influência global</strong></span>
+          <span class="face back">Inspirou movimentos anticoloniais na África, o Black Power nos EUA e estudos pós-coloniais.</span>
+        </span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<!-- 8. QUIZ -->
+<section class="section alt" id="quiz">
+  <div class="container narrow">
+    <h2>Quiz rápido</h2>
+    <p class="section-sub">Cinco perguntas para testar o que você aprendeu.</p>
+    <div class="quiz-box" id="quizBox" aria-live="polite">
+      <noscript>Ative o JavaScript para responder ao quiz.</noscript>
+    </div>
+  </div>
+</section>
+
+<!-- 9. ENCERRAMENTO -->
+<section class="closing" id="encerramento">
+  <div class="container narrow">
+    <blockquote>
+      “Cada geração deve, em relativa opacidade, descobrir sua missão, cumpri-la ou traí-la.”
+      <cite>Frantz Fanon, <em>Os Condenados da Terra</em></cite>
+    </blockquote>
+    <details class="more-info">
+      <summary>Para saber mais</summary>
+      <ul>
+        <li><a href="https://www.youtube.com/watch?v=ucRIZD1-a88" target="_blank" rel="noopener">A invenção do racismo: o humanismo radical de Frantz Fanon (História Cabeluda)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=zXQzmQvu4z0" target="_blank" rel="noopener">Sobre descolonizar a humanidade (Canal do Noguera)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=nzH-vm-MO38" target="_blank" rel="noopener">Fanon e a dialética da violência (Ubu Editora)</a></li>
+        <li><a href="https://www.youtube.com/watch?v=MLGy2QWnUgs" target="_blank" rel="noopener">L’histoire de Frantz Fanon (Histoires Crépues, em francês)</a></li>
+        <li><a href="https://iep.utm.edu/fanon/" target="_blank" rel="noopener">Internet Encyclopedia of Philosophy — Fanon</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Frantz_Fanon" target="_blank" rel="noopener">Wikipedia — Frantz Fanon</a></li>
+      </ul>
+      <p class="small">Obras: FANON, F. <em>Peau noire, masques blancs</em> (Seuil, 1952); <em>L’An V de la Révolution Algérienne</em> (Maspero, 1959); <em>Les Damnés de la Terre</em> (Maspero, 1961). Biografias: David Macey, Alice Cherki, Adam Shatz. Imagens: Wikimedia Commons.</p>
+    </details>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>Feito por Daviniel, Gabriely Julia, Gutyerrison, Gustavo, Guilherme e Liwerton</p>
+    <p>Turma: 2°mcn1</p>
+  </div>
+</footer>
+
+<a class="to-top" id="toTop" href="#inicio" aria-label="Voltar ao topo">↑</a>
+
+</body>
+</html>
